@@ -1,0 +1,6 @@
+{
+  "photo": "samples/sonoma-cold-flat.jpg",
+  "reference": "samples/sonoma.jpg",
+  "goal": "Fix the blue color cast and the flat, washed-out look",
+  "expect": { "brightness": [110, 165], "contrast": [35, 70], "saturation": [0.32, 0.55], "warmth": [-6, 35], "highlights": [0, 1], "shadows": [0, 2] }
+}

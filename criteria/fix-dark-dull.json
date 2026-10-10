@@ -1,0 +1,6 @@
+{
+  "photo": "samples/sonoma-dark-dull.jpg",
+  "reference": "samples/sonoma.jpg",
+  "goal": "Fix this underexposed, dull photo so it looks natural",
+  "expect": { "brightness": [110, 165], "contrast": [35, 70], "saturation": [0.32, 0.55], "warmth": [-6, 35], "highlights": [0, 1], "shadows": [0, 2] }
+}

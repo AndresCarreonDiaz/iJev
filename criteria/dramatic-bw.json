@@ -1,0 +1,5 @@
+{
+  "photo": "samples/sonoma.jpg",
+  "goal": "Make it a dramatic black and white photo",
+  "expect": { "saturation": [0, 0.03], "contrast": [60, 95], "brightness": [90, 170], "highlights": [0, 10], "shadows": [0, 10] }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ijev",
+  "private": true,
+  "type": "module",
+  "description": "Eyes for Jev: images turned into text by plain code, so a text-only decision model can see and act on them.",
+  "scripts": {
+    "draw:pixels": "node src/draw-pixels.ts",
+    "draw:shapes": "node src/draw-shapes.ts",
+    "edit": "node src/edit.ts",
+    "samples": "node src/make-samples.ts",
+    "quiz": "node src/quiz.ts",
+    "act": "node src/act.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
+  },
+  "license": "MIT"
+}
